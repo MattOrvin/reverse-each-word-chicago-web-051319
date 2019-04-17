@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
     reversed_sentence.reverse
     new_sentence = []
     new_sentence << reversed_sentence
-    new_sentence.join
+    new_sentence.reverse.join
 end
 end
